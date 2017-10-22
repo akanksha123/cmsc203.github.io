@@ -2,7 +2,7 @@
 <head> <title> Assignment 2 Solutions </title> <head>
 <body>
  <h2> Solutions </h2>
- Problem 1 : Exercise Set 2.2, #50, page 50
+ <U>Problem 1 : Exercise Set 2.2, #50, page 50</U>
  <br> a. (p->(q->r)) <-> ((p ^ q) -> r) 
  <br> (p->(~q v r)) <-> (~(p ^ q) v r)
  <br> (~p v (~q v r)) <-> (~p v ~q) v r))
@@ -11,8 +11,223 @@
  <br>
  b. ~(p ^ q ^ ~r)
  <br><br>
- Exercise Set 2.3, #11, page 62
- </body>
- </html>
+ <U>Problem 2 : Exercise Set 2.3, #11, page 62</U>
+ <br>
+ <table style="width: 500px;" border = "2" cellpadding = "1">
+	<tbody>
+		<tr>
+			<td> p</td>
+			<td> q</td>
+			<td> r</td>
+			<td> qvr</td>
+			<td> ~p</td>
+			<td> ~q</td>
+   <td>~r </td>
+   <td>~qv~r </td>
+   <td>~pv~r </td>
+			<td>p->(qvr)</td>
+		</tr>
+		<tr>
+			<td> T</td>
+			<td> T</td>
+			<td> T</td>
+			<td> T</td>
+			<td> F</td>
+			<td> F</td>
+			<td> F</td>
+   <td> F</td>
+   <td> F</td>
+   <td> T</td>
+		</tr>
+		<tr>
+			<td> T</td>
+			<td> T</td>
+			<td> F</td>
+			<td> T</td>
+			<td> F</td>
+			<td> F</td>
+			<td> T</td>
+   <td> T</td>
+   <td> T</td>
+   <td> T</td>
+		</tr>
+		<tr>
+			<td> T</td>
+			<td> F</td>
+			<td> T</td>
+			<td> T</td>
+			<td> F</td>
+			<td> T</td>
+			<td> F</td>
+   <td> T</td>
+   <td> F</td>
+   <td> T</td>
+		</tr>
+		<tr>
+		<td> T</td>
+			<td> F</td>
+			<td> F</td>
+			<td> F</td>
+			<td> F</td>
+			<td> T</td>
+			<td> T</td>
+   <td> T</td>
+   <td> T</td>
+   <td> F</td>
+		</tr>
+		<tr>
+			<td> F</td>
+			<td> T</td>
+			<td> T</td>
+			<td> T</td>
+			<td> T</td>
+			<td> F</td>
+			<td> F</td>
+   <td> F</td>
+   <td> T</td>
+   <td> T</td>
+		</tr>
+		<tr>
+			<td> F</td>
+			<td> T</td>
+			<td> F</td>
+			<td> T</td>
+			<td> T</td>
+			<td> F</td>
+			<td> T</td>
+   <td> T</td>
+   <td> T</td>
+   <td> T</td>
+		</tr>
+		<tr>
+		<td> F</td>
+			<td> F</td>
+			<td> T</td>
+			<td> T</td>
+			<td> T</td>
+			<td> T</td>
+			<td> F</td>
+   <td> T</td>
+   <td> T</td>
+   <td> T</td>
+		</tr>
+		<tr>
+			<td> F</td>
+			<td> F</td>
+			<td> F</td>
+			<td> F</td>
+			<td> T</td>
+			<td> T</td>
+			<td> T</td>
+   <td> T</td>
+   <td> T</td>
+   <td> T</td>
+		</tr>
+	</tbody>
+</table>
+	Invalid
+<br>
+<br>
+<br>
+<u> Problem 3 : Exercise Set 2.3, #30, page 62</u>
+p = This computer program is correct
+q = It produces correct o/p.
+<br>p -> q
+<br>q
+<br> Therefore p
+<br> Converse Error
+<br>
+<br>
+ 
+<u>Problem 4 : Exercise Set 2.3, #44, page 63</u>
+<br>
+ 1<br>
+c. ~s -> ~t
+<br>
+e. ~s
+<br>So ~t--------------Modus ponens
+<br>
+2
+<br>
+g.w v t <br>
+1.~t
+<br>So w-----------------Elimination
+<br>
+3
+<br>
+d.~qvs
+<br>
+e. ~s
+So ~q------------------Elimination
+<br>
+4
+<br>
+a.p->q
+<br>
+3.~q
+<br>
+So ~p----------------Modus Tollens
+<br>
+5
+<br>
+b. rvs
+<br>
+e. ~s
+<br>
+So r----------------Elimination
+<br>
+6
+<br>
+4. ~p<br>
+5. r<br>
+So ~p^r------------Conjuction
+<br>
+7
+<br>
+~p ^ r -> u
+<br>
+6.~p^r
+So u---------------Modus Ponens
+<br>
+8
+<br>
+2. u
+7. w
+So u ^ w---------Conjuction
+<br>
+<br>
+<u>Problem 5 : Exercise Set 3.1, #16bdf, page 107</u>
+<br>
+b. For every real no. x , x is positive,negative or zero.<br>
+d. For every logician x, x is not lazy.<br>
+f. For every no. x, x^2 is not -1.<br>
+<br>
+<u>Problem 6 : Exercise Set 3.2, #15bde, page 116</u>
+<br>
+b. True<br>
+d. True<br>
+e. False eg: x = 36<br>
+<br>
+ 
+<u>Problem 7 : Exercise Set 3.2, #17, page 116</u>
+<br>
+There exists integer d such that 6/d is an integer and d is not equal to 3.<br>
+<br>
+<u>Problem 8 : Exercise Set 3.3, #28, page 130</u>
+<br>
+a. True - d and e, f and h<br>
+b. For every triangle x and for every square y, x is not above y or x and y have different color.<br>
+<br>
+<u> Problem 9 : Exercise Set 3.4, #27, page 143</u>
+<br>
+Nothing intelligible ever puzzles me.<br>
+It means if something is intelligible then it does not puzzle me.
+<br> But logic puzzles me.So logic is not intelligible.<br>
+ Set U  : Intelligible<br>
+ Set I  : Not puzzling where I is a subset of U <br>
+and set L : Logic independent set outside of U.
+<br>
+</body>
+</html>
  
  
